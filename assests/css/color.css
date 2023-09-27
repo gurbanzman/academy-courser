@@ -1,0 +1,18 @@
+.class-black{
+   color: var(--Dark, #080808) !important;
+}
+.bg-purpose{
+   background: linear-gradient(270deg, #B176F2 68.3%, #FAC1F1 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.class-gray{
+   color: var(--Black-75, rgba(62, 50, 50, 0.75));
+}
+.cBlack{
+   color: var(--Black, #3E3232) !important; 
+}
+.cBlue{
+   color: var(--Blue, #5A69F2);
+}

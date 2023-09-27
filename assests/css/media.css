@@ -1,0 +1,103 @@
+@media screen and (max-width:992px){   
+      #link2{
+         display: none;
+      }
+      .width1{
+         width: 100% !important;
+      }
+      .tcenter{
+         text-align: center;
+      }
+      .width9{
+         width: 90% !important;
+      }
+      .new__card{
+         width: 48% !important;
+      }
+      .aside__card{
+         width: 47.5% !important;
+      }
+      .aside__back{
+         top: 23% !important;
+      }
+      .aside__back-bg{
+         top: -4px !important;
+      }.academy,
+      .course__cards{
+         flex-direction: column;
+      }
+      .aside__abso{
+         right: 7% !important;
+      }
+      .course__card{
+         width: 100% !important;
+      }
+      .academy__head{
+         font-size: 20px !important;
+         width: 90% !important;
+      }
+      .academy__abso{
+         bottom: -70% !important;
+         width: 10% !important;
+      }
+      .mg0{
+         margin: 0 auto !important;
+      }
+      .mt-7{
+         margin-top: 7% !important;
+      }
+      .aside__text-p{
+         font-size: 14px !important;
+         width: 90%;
+      }
+      .section__abso{
+         top: 65% !important;
+         right: 10% !important;
+      }
+      .sign-link,
+      .bar{
+         display: block !important;
+      }
+}
+
+@media screen and (max-width:768px) {
+   .width9{
+      width: 90% !important;
+   }
+   .nav__form-search{
+      padding: 10px 13px !important;
+      width: 42% ;
+   }
+   .nav__input{
+      width: 50% !important;
+   }
+   .nav__form{
+      justify-content: flex-end !important;
+   }
+   .section__abso{
+      right: -2% !important;
+   }
+   .none{
+      display: none !important;
+   }
+   .aside__abso{
+      right: -1% !important;
+   }
+   .aside__back{
+      top: 23% !important;
+   }
+   .aside__card{
+      width: 63.7% !important;
+   }
+   .academy__head{
+      font-size: 18px !important;
+      width: 90% !important;
+      line-height: 30px !important;
+      text-align: center !important;
+      margin-bottom: 20px !important;
+   }
+   .sign-link,
+      .bar{
+         display: block !important;
+      }
+}

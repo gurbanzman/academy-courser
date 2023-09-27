@@ -1,0 +1,68 @@
+.mt-5{
+   margin-top: 5%;
+}
+
+.mt-8{
+   margin-top: 8%;
+}
+
+.mt-12{
+   margin-top: 12%;
+}
+
+/* body container */
+
+.container{
+   width: 85%;
+   margin: 0 auto;
+}
+
+.image{
+   border-radius: 12px;
+   width: 100%;
+}
+.d-flex{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 8px;
+}
+
+.aside-logo{
+   width: 212px;
+   height: 161px;
+   flex-shrink: 0;
+}
+.course__logo{
+   width: 340px;
+   /* height: 240px; */
+   flex-shrink: 0;
+}
+.aside__abso{
+   right: 27% !important;
+   top: -40px !important;
+}
+
+.course__sign-photo{
+   width: 44px;
+   height: 44px;
+   flex-shrink: 0p;
+}
+
+.course__image{
+   border-radius: 10px;
+   width: 100%;
+   height: 100%;
+}
+.width{
+   width: 100%;
+}
+
+.gap4{
+   gap: 4px !important;
+}
+
+.footer__cer{
+   width: 60%;
+   flex-shrink: 0;
+}

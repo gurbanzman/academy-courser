@@ -1,0 +1,136 @@
+/* nav ul lists fonts */
+
+@font-face {
+   font-family: 'Rubik',sans-serif;
+   src: url('/assests/fonts/rubiks_cube/RUBIKS\ CUBE.ttf');
+}
+
+.nav__first-a{ 
+   color: var(--Dark-50, rgba(8, 8, 8, 0.50));
+   font-size: 16px;
+   font-weight: 500;
+   line-height: normal;
+   text-transform: capitalize;
+} 
+
+/* nav logo heading fonts */
+
+.nav__first-head{
+   color: var(--Dark, #080808);
+   font-family: Rubik, sans-serif;
+   font-size: 32px;
+   font-weight: 900;
+   line-height: normal;
+   text-transform: uppercase;
+}
+.fs-13{
+   font-size: 13px;
+}
+
+/* main head fonts */
+
+.main-head-fonts{
+   color: #000;
+   font-size: 40px;
+   font-weight: 900;
+   line-height: 68px; /* 170% */
+   text-transform: capitalize;
+}
+
+/* main search fonts */
+
+.search-head-fonts{
+   color: var(--Dark, #080808);
+   font-size: 36px;
+   font-weight: 900;
+   line-height: 68px; /* 188.889% */
+   text-transform: capitalize;
+}
+
+/* cards-head-list-fonts */
+
+.cards-head{
+   color: var(--Dark, #080808);
+   text-align: center;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 20px; /* 142.857% */
+   text-transform: capitalize;
+}
+
+/* notification fonts */
+
+.nav__sign-icon{
+   color: var(--Primary, #9E5CF2);
+   font-size: 20px;
+   font-weight: 900;
+   line-height: normal;
+}
+
+/* new-logo fonts */
+
+.new__parag{
+   color: var(--Dark, #080808);
+   font-size: 20px;
+   font-weight: 600;
+   line-height: normal;
+   text-transform: uppercase;
+}
+
+.new__card-text{
+   color: var(--Black-75, rgba(62, 50, 50, 0.75));
+   font-size: 13px;
+   font-weight: 500;
+   line-height: normal;
+   text-transform: capitalize;
+}
+
+.new__card-icon{
+   color: var(--Dark-25, rgba(8, 8, 8, 0.25));
+   font-size: 16px;
+   font-weight: 900;
+   line-height: normal;
+}
+
+.aside__text-p{
+   color: var(--Dark-75, rgba(0, 0, 0, 0.75));
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px; /* 142.857% */
+   letter-spacing: 0.25px;
+   text-transform: capitalize;
+}
+
+.aside__info-span{
+   color: var(--Black-75, rgba(62, 50, 50, 0.75));
+   text-align: right;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: normal;
+   text-transform: capitalize;
+}
+
+.course__sign-span{
+   color: var(--Black, #3E3232);
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 22px; /* 157.143% */
+   letter-spacing: 0.1px;
+}
+
+.course__sign-span2{
+   color: var(--Black-75, rgba(62, 50, 50, 0.75));
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 18px; /* 150% */
+   letter-spacing: 0.25px;
+}
+
+.footer__parag{
+   color: var(--Dark, #080808);
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 30px; /* 214.286% */
+   letter-spacing: 0.25px;
+
+}

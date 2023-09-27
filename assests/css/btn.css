@@ -1,0 +1,68 @@
+.btn{
+   text-align: center;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 20px; /* 142.857% */
+   text-transform: capitalize;
+   transition: all 0.2s ease;
+}
+.btn-black{
+   background: var(--Dark, #080808);
+   color: #FFF;
+   border-radius: 10px;
+   transition: all 0.2s ease-in;
+}
+.btn-white{
+   color: var(--Dark, #080808);
+   background: #FFF;
+   border-radius: 10px;
+   transition: all 0.2s ease;
+}
+.btn-white:hover{
+   background: var(--Gray, #F5F5F5);
+}
+
+.btn-black:hover{
+   background: var(--Primary, #9E5CF2);
+   color: #080808;
+}
+.btn-long{
+   padding: 20px 20px 20px 24px;
+}
+.btn-medium{
+   padding: 10px 24px;
+}
+.btn-nav{
+   padding: 23px 32px;
+   border-radius: 12px;
+}
+.btn-cards{
+   padding: 10px 16px 10px 24px;
+}
+.btn-med{
+   padding: 16px 16px 16px 20px;
+}
+.btn-nav-head{
+   color: var(--Dark, #080808);
+   text-align: center;
+   border-radius: 12px;
+   background: var(--Gray, #FAFAFA);
+}
+input[type=submit]{
+   cursor: pointer;
+}
+.btn-ligh{
+   padding: 12px;
+   transition: all 0.2s ease-in-out;
+   border-radius: 12px;
+   background: var(--Gray, #FAFAFA);
+}
+.btn-ligh:hover{
+   background-color: var(--Primary, #9E5CF2);
+   filter: none;
+}
+
+.bg{
+   border-radius: 12px;
+   background: #F5F5F5;
+}
