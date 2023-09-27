@@ -447,6 +447,13 @@
    z-index: 99;
 }
 
+.academy__section{
+   background-image: url('/assests/image/background (1).svg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 80px;
+}
+
 .academy{
    display: flex;
    align-items: center;
