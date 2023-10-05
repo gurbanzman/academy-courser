@@ -25,6 +25,7 @@
 </head>
 
 <body>
+   <div class="all-body">
    <nav class="nav">
       <section class="container nav__section width9">
          <div class="nav__first">
@@ -32,25 +33,25 @@
                <figure>
                   <img src="/assests/image/Group (4).svg">
                </figure>
-               <h1 class="nav__first-head"> academy </h1>
+               <h1 class="nav__first-head d-none"> academy </h1>
             </div>
             <a href="#" class="bar">
                <i class="fa-solid fa-bars"></i>
             </a>
             <ul class="nav__first-link" id="link2">
-               <li class="nav__first-list"><a href="index.html" class="nav__first-a"> Categories </a><i class="fa-solid fa-angle-down nav__first-a"></i></li>
-               <li class="nav__first-list"><a href="index.html" class="nav__first-a"> Teach </a></li>
-               <li class="nav__first-list"><a href="index.html" class="nav__first-a"> contact us </a></li>
-               <li class="nav__first-list"><a href="index.html" class="nav__first-a"> about us </a></li>
+               <li class="nav__first-list"><a href="index.html" class="nav__first-a nav__first--link"> Categories </a><i class="fa-solid fa-angle-down nav__first-a nav__first--link"></i></li>
+               <li class="nav__first-list"><a href="index.html" class="nav__first-a nav__first--link"> Teach </a></li>
+               <li class="nav__first-list"><a href="index.html" class="nav__first-a nav__first--link"> contact us </a></li>
+               <li class="nav__first-list"><a href="index.html" class="nav__first-a nav__first--link"> about us </a></li>
             </ul>
          </div>
          <div class="nav__form">
             <form action="#" class="nav__form-search">
-               <input type="search" name="text" id="text" class="nav__form-input nav__input" placeholder="Search anything"
+               <input type="search" name="text" id="text" class="nav__form-input nav__input none" placeholder="Search anything"
                   autocomplete="off" aria-busy="true">
                <input type="submit" name="search" id="search" class="nav__form-submit">
             </form>
-            <hr class="nav__form-line none">
+            <hr class="nav__form-line none" id="link2">
             <div class="nav__sign">
                <a href="#" class="cards-head btn-medium btn-white course__list sign-link"> Sign in </a>
                <div class="nav__sign-up" id="link2">
@@ -59,7 +60,7 @@
                   </figure>
                   <div class="nav__sign-text">
                      <span class="nav__first-a nav__sign--a"> Murad Gurbanzada </span>
-                     <span class="nav__first-a fs-13"> Front-end developer </span>
+                     <span class="nav__first-a fs-13 nav__sign--first"> Front-end developer </span>
                   </div>
                </div>
                <a href="#" class="nav__sign-link" id="link2">
@@ -69,7 +70,7 @@
          </div>
       </section>
       <hr class="nav__line width">
-      <article class="container nav__article">
+      <article class="container nav__article width9 m-auto">
          <div class="nav__second-links">
             <a href="#" class="nav__second-a nav__green">
                <img src="/assests/image/icon (2).svg">
@@ -144,7 +145,7 @@
             </div>
          </div>
          <div>
-            <figure>
+            <figure class="header__img">
                <img src="/assests/image/image (6).svg">
             </figure>
          </div>
@@ -154,19 +155,19 @@
    <main>
       <section class="section width9 mg0">
          <div class="section__first mt-7">
-            <h1 class="search-head-fonts section__first-head tcenter"> Search among <span class="bg-purpose"> 58340 </span>
+            <h1 class="search-head-fonts section__first-head section__head--width"> Search among <span class="bg-purpose"> 58340 </span>
                courses and find your favorite course </h1>
-            <div class="section__form">
+            <div class="section__form section__column">
                <form action="#" class="section__form section__form--categori">
                   <input type="submit" name="submit" id="submit" value="Categories" class="btn-medium btn btn-black">
                   <input type="search" name="search" id="search" placeholder="Search anything"
-                     class="section__form-input">
+                     class="section__form-input section__form--categori d-none">
                   <input type="submit" name="search" id="search" class="nav__form-submit">
                </form>
                <a href="#" class="nav__first-a class-gray fs-13"> Or view the following courses... </a>
             </div>
          </div>
-         <figure class="section__abso">
+         <figure class="section__abso d-none">
             <img src="/assests/image/arrows (2).svg">
          </figure>
       </section>
@@ -210,7 +211,7 @@
                         </a>
                      </div>
                      <div class="new__card-submit width">
-                        <a href="#" class="btn-cards btn btn-black d-flex">
+                        <a href="#" class="btn-cards btn btn-black d-flex button-media">
                            Start course now
                            <i class="fa-solid fa-chevron-right"></i>
                         </a>
@@ -242,7 +243,7 @@
                         </a>
                      </div>
                      <div class="new__card-submit width">
-                        <a href="#" class="btn-cards btn btn-black d-flex">
+                        <a href="#" class="btn-cards btn btn-black d-flex button-media">
                            Start course now
                            <i class="fa-solid fa-chevron-right"></i>
                         </a>
@@ -274,7 +275,7 @@
                         </a>
                      </div>
                      <div class="new__card-submit width">
-                        <a href="#" class="btn-cards btn btn-black d-flex">
+                        <a href="#" class="btn-cards btn btn-black d-flex button-media">
                            Start course now
                            <i class="fa-solid fa-chevron-right"></i>
                         </a>
@@ -307,7 +308,7 @@
                         </a>
                      </div>
                      <div class="new__card-submit width">
-                        <a href="#" class="btn-cards btn btn-black d-flex">
+                        <a href="#" class="btn-cards btn btn-black d-flex button-media">
                            Start course now
                            <i class="fa-solid fa-chevron-right"></i>
                         </a>
@@ -319,8 +320,7 @@
                </div>
                <div class="new__card">
                   <figure class="new__card-logo">
-                     <img src="/assests/image/6410ebf8e483b5758186fbd8_ABM college mobile app dev main.png"
-                        class="image">
+                     <img src="/assests/image/6410ebf8e483b5758186fbd8_ABM college mobile app dev main.png"class="image">
                   </figure>
                   <div class="new__card-text">
                      <p class="nav__first-a class-black font-ellipsis"> Mobile App Development with Flutter & Dart (iOS
@@ -340,7 +340,7 @@
                         </a>
                      </div>
                      <div class="new__card-submit width">
-                        <a href="#" class="btn-cards btn btn-black d-flex">
+                        <a href="#" class="btn-cards btn btn-black d-flex ">
                            Start course now
                            <i class="fa-solid fa-chevron-right"></i>
                         </a>
@@ -446,11 +446,43 @@
                      </div>
                   </div>
                </div>
+               <div class="new__card" id="link2">
+                  <figure class="new__card-logo">
+                     <img src="/assests/image/bd26b44e-e468-411a-8373-1533715892a1-twitter (1).png" class="image">
+                  </figure>
+                  <div class="new__card-text">
+                     <p class="nav__first-a class-black font-ellipsis"> Become a Product Manager | Learn the Skills &
+                        Get the Job </p>
+                     <div class="new__card-score">
+                        <a href="#" class="new__card-link">
+                           <i class="fa-solid fa-chess-rook new__card-icon"></i>
+                           <span class="new__card-text"> Lesson : 6 </span>
+                        </a>
+                        <a href="#" class="new__card-link">
+                           <i class="fa-solid fa-user new__card-icon"></i>
+                           <span class="new__card-text"> student : 198 </span>
+                        </a>
+                        <a href="#" class="new__card-link">
+                           <i class="fa-solid fa-trophy new__card-icon"></i>
+                           <span class="new__card-text"> Beginner </span>
+                        </a>
+                     </div>
+                     <div class="new__card-submit width">
+                        <a href="#" class="btn-cards btn btn-black d-flex">
+                           Start course now
+                           <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                        <figure>
+                           <img src="/assests/image/Score.svg">
+                        </figure>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
       </article>
 
-      <aside class="aside mt-8">
+      <aside class="aside mt-8 d-none">
          <div class="container aside__best width9">
             <div class="aside__text">
                <h1 class="search-head-fonts"><span class="bg-purpose"> best </span> Instructors </h1>
@@ -538,7 +570,7 @@
       </aside>
 
       <aside class="mt-8">
-         <div class="container course width9">
+         <div class="container course width9 d-none">
             <div class="new__section">
                <div class="new__head">
                   <span class="new__logo"></span>
@@ -746,17 +778,18 @@
             <h1 class="search-head-fonts academy__head academy__head"> Find out about the latest courses with the <span class="cBlue">
                   academy </span> newsletter </h1>
             <form action="#" class="academy__form">
-               <input type="search" name="text" id="text" class="nav__form-input" placeholder="Search anything"
+               <input type="search" name="text" id="text" class="nav__form-input academy__form--input" placeholder="Search anything"
                   autocomplete="off" aria-busy="true">
                <input type="submit" name="submit" id="submit" class="btn-medium btn btn-black">
             </form>
+            <div class="academy__links">
+               <a href="#" class="academy__link"> Best Instructors </a>
+               <a href="#" class="academy__link"> New Courses </a>
+            </div>
          </div>
-         <!-- <figure class="academy__abso" id="link2">
-            <img src="/assests/image/background (1).svg">
-         </figure> -->
       </section>
 
-      <article class="mt-12">
+      <article class="mt-12 d-none">
          <div class="container width9">
             <div class="new__section">
                <div class="new__head">
@@ -770,8 +803,8 @@
                            class="fa-solid fa-angle-right"></i></a></li>
                </ul>
             </div>
-            <div class="new__cards">
-               <div class="new__card">
+            <div class="new__cards same__cards">
+               <div class="new__card same__card">
                   <figure class="new__card-logo">
                      <img src="/assests/image/maxresdefault.png" class="image">
                   </figure>
@@ -803,7 +836,7 @@
                      </div>
                   </div>
                </div>
-               <div class="new__card">
+               <div class="new__card same__card">
                   <figure class="new__card-logo">
                      <img src="/assests/image/dade0a32-926a-4b48-91a3-ebcba5c348c4 (1) (1).png" class="image">
                   </figure>
@@ -835,7 +868,7 @@
                      </div>
                   </div>
                </div>
-               <div class="new__card">
+               <div class="new__card same__card">
                   <figure class="new__card-logo">
                      <img src="/assests/image/Best-Dreadnought-Guitars-Guide-728x546 (1).png" class="image">
                   </figure>
@@ -867,7 +900,7 @@
                      </div>
                   </div>
                </div>
-               <div class="new__card">
+               <div class="new__card same__card">
                   <figure class="new__card-logo">
                      <img src="/assests/image/6410ebf8e483b5758186fbd8_ABM college mobile app dev main.png"
                         class="image">
@@ -905,7 +938,7 @@
       </article>
    </main>
 
-   <footer class="mt-8">
+   <footer class="mt-8 new--footera">
       <div class="container footer width9">
          <div class="footer__logo none">
             <div class="footer__head">
@@ -924,7 +957,7 @@
                <h1 class="nav__first-head"> academy </h1>
             </div>
          </div>
-         <div class="footer__message">
+         <div class="footer__message none">
             <div class="footer__message-logo none">
                <div class="new__head">
                   <span class="new__logo"></span>
@@ -1011,5 +1044,6 @@
          </div>
       </div>
    </footer>
+</div>
 </body>
 </html>
